@@ -85,5 +85,3 @@ function randomSentenceGen() {
       let job = jobs[Math.floor(Math.random() * jobs.length)];
       return `${name} lives in ${city}, and works as a ${job}.`;
 }
-
-console.log(randomSentenceGen());
