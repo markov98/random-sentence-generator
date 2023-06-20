@@ -83,5 +83,5 @@ function randomSentenceGen() {
       let name = names[Math.floor(Math.random() * names.length)];
       let city = cities[Math.floor(Math.random() * cities.length)];
       let job = jobs[Math.floor(Math.random() * jobs.length)];
-      return `${name} lives in ${city}, and works as a ${job}.`;
+      document.getElementById('sentence').textContent = `${name} lives in ${city}, and works as a ${job}.`;
 }
